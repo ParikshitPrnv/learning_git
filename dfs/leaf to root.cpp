@@ -1,3 +1,9 @@
+/*
+Hi guys!
+In my approach to the solution, I tried to go from leaf to the node.
+And while traversing this way I saved the computed time cost of the nodes so that we don't have to compute them again and again.
+Here's my code for the same.
+*/
 class Solution {
 public:
     int reverse_dfs(vector<int>& manager, vector<int>& informTime,int current_emp,vector<int> &visited)
